@@ -1,4 +1,4 @@
-# How to detect SnuPL file.
+# How to detect SnuPL files.
 
 Create new file 'snupl.mod' in '~/.vim/ftdetect'. You may create .vim and ftdetect folder.
 
