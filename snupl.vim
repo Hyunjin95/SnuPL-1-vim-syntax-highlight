@@ -10,14 +10,30 @@ if exists("b:current_syntax")
 endif
 
 " SnuPL keywords
-syn keyword spStatements return end begin if else then while do 
+
+" Statement keywords
+syn keyword spStatements return end begin if else then while do
+syn match spStatements "\."
+
+" Type keywords
 syn keyword spType integer boolean char var
+
+" Boolean keywords
 syn keyword spBoolean true false
+
+" Function keywords
 syn keyword spProcedure module procedure function
 
+" Comment
 syn match spComment "//.*"
+
+" Number
 syn match spNumber "\v<\d+>"
+
+" String
 syn region spString start="\"" skip=+\\"+ end="\""
+
+" Character
 syn region spCharacter start="'" skip=+\\'+ end="'"
 
 " Highlights
