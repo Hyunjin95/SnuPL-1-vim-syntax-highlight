@@ -15,8 +15,8 @@ syn keyword spType integer boolean char var
 syn keyword spBoolean true false
 syn keyword spProcedure module procedure function
 
-syn match spComment "\/\/.*"
-syn match spNumber "\d\+"
+syn match spComment "//.*"
+syn match spNumber "\v<\d+>"
 syn region spString start="\"" skip=+\\"+ end="\""
 syn region spCharacter start="'" skip=+\\'+ end="'"
 
