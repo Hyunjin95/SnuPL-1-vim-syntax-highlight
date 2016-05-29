@@ -12,7 +12,9 @@ endif
 " SnuPL keywords
 
 " Statement keywords
-syn keyword spStatements return end begin if else then while do
+syn keyword spStatements return end begin
+syn keyword spConditional if else then
+syn keyword spRepeat while do
 syn match spStatements "\."
 
 " Type keywords
@@ -38,6 +40,8 @@ syn region spCharacter start="'" skip=+\\'+ end="'"
 
 " Highlights
 hi def link spStatements Statement
+hi def link spConditional Conditional
+hi def link spRepeat Repeat
 hi def link spType Type
 hi def link spBoolean Boolean
 hi def link spProcedure Function
