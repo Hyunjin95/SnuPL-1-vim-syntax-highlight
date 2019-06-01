@@ -1,18 +1,25 @@
-# Make Vim detect SnuPL files.		
+# SnuPL/1
+
+SnuPL/1 is the programming language used in the Compiler class in spring 2016.
+
+You can check the compiler for SnuPL/1 at https://github.com/Hyunjin95/snu-compilers
+
+
+# Make Vim detect SnuPL/1 files.		
 		
-Create new file 'snupl.mod' in '~/.vim/ftdetect'. You may need to create '.vim' or 'ftdetect' directory.		
+Create a new file 'snupl.mod' in '~/.vim/ftdetect'. You might first need to create a '.vim' or a 'ftdetect' directory.
 		
-Put the following line into it.		
+Put the following line into the file.		
 		
     au BufNewFile,BufRead *.mod set filetype=snupl		
 	
-Create new *.mod file and run this command.		
+Create a new *.mod file and run this command.		
 		
     :set filetype?		
 		
-Vim will say __snupl__, and now Vim recognizes snupl files.		
+Vim will say __snupl__, and Vim will now recognize SnuPL/1 files.		
 		
 		
 # Enable Syntax Highlighting		
 		
-Put 'snupl.vim' file into '~/.vim/syntax' folder.
+Put the 'snupl.vim' file into the '~/.vim/syntax' folder.
