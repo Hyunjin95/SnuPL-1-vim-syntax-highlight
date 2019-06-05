@@ -1,8 +1,8 @@
 # SnuPL/1
 
-SnuPL/1 is the programming language used in the Compiler class in spring 2016.
+SnuPL/1 is a programming language used in the Compiler class in spring 2016.
 
-You can check the compiler for SnuPL/1 at https://github.com/Hyunjin95/snu-compilers
+You can check my compiler for SnuPL/1 at https://github.com/Hyunjin95/snu-compilers
 
 
 # Make Vim detect SnuPL/1 files.		
