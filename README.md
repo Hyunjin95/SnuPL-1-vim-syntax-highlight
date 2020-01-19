@@ -7,7 +7,7 @@ You can check my compiler for SnuPL/1 at https://github.com/Hyunjin95/snu-compil
 
 # Make Vim detect SnuPL/1 files
 		
-Create a new file 'snupl.vim' in '~/.vim/ftdetect'. You might first need to create a '.vim' or a 'ftdetect' directory:
+Create a new file __'snupl.vim'__ in '~/.vim/ftdetect'. You might first need to create a '.vim' or a 'ftdetect' directory:
 
     mkdir -p ~/.vim/ftdetect
 
